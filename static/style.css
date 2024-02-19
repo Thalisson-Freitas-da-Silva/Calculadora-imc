@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(186, 236, 252);
+}
+
+h1{
+    font-size: 50px;
+}
+
+.corpo{
+    background-color: rgb(83, 241, 186);
+    margin-top: 200px;
+    margin-left: 700px;
+    margin-right: 700px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial Black;
+}
+
+input{
+    font-size:22px;
+    width:100%;
+    padding:10px;
+    margin-bottom:10px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#botao{
+    background-color: rgb(16, 197, 136);
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    border-color: black;
+    margin-top:25px;
+}
+
+.resultado{
+    font-family:Arial;
+    font-size: 35px;
+    background-color: rgb(83, 241, 186);
+    text-align: left;
+    margin-top: 100px;
+    margin-left:630px;
+    margin-right:540px;
+    height: 680px;
+}
+
+footer{
+    background-color:  rgb(83, 241, 186);
+    color: #000000; 
+    padding: 20px;
+    position:fixed; 
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold; 
+    width: 100%; 
+    bottom: 0;     
+}
+
+.nova_medicao{
+    background-color: rgb(16, 197, 136);
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    border-color: black;
+    margin-top:25px;   
+}

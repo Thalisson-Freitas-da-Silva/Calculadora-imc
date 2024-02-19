@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resultado</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    </head>
+    <body>
+        <div class="resultado">
+            <p><strong>Peso: </strong> {{peso}}</p>
+            <p><strong>Altura: </strong> {{altura}}</p>
+            <p><strong>IMC:</strong> {{imc}}</p>
+            <p><strong>Resultado:</strong> {{resultado}}</p>
+            <img src="{{url_for('static', filename='tabela_imc.png')}}">
+            <a href="/"><input class="nova_medicao" type="button" value="Nova medição"></a>
+        </div>
+    </body>
+</html>

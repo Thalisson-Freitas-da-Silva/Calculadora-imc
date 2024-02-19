@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <!-- Calculadora IMC - Feito por Thalisson Freitas da Silva -->
+        <meta charset="utf-8">
+        <title>Calculadora IMC</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <form class="corpo" action="/calcular_imc" method="POST">
+            <fieldset>
+                <h1>Calculadora IMC</h1>
+                <!-- Caixas de textos -->
+                <label for="peso">Peso: "Ex - 70" </label><input type="text" id="peso" name="peso"><br>
+                <label for="altura">Altura: "Ex - 1.76" </label><input type="text" id="altura" name="altura"><br>
+                <!-- Enviar --> 
+                <input id="botao" type="submit" value="Enviar" name="enviar">
+            </fieldset>
+        </form>
+        <footer><p>Feito por Thalisson Freitas da Silva | LinkedIn - Thalisson Freitas</p></footer>
+    </body>
+</html>
